@@ -1,0 +1,8 @@
+{
+	"name": "@nektaria/shared",
+	"module": "index.ts",
+	"type": "module",
+	"dependencies": {
+		"@nektaria/backend": "workspace:*"
+	}
+}

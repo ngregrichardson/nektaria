@@ -1,0 +1,21 @@
+{
+  "name": "nektaria",
+  "private": true,
+  "scripts": {
+    "build": "turbo build",
+    "dev": "turbo dev",
+    "lint": "turbo lint",
+    "format": "prettier --write \"**/*.{ts,tsx,md}\""
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^1.7.3",
+    "@vitest/coverage-v8": "^1.6.0",
+    "drizzle-kit": "^0.21.1",
+    "turbo": "latest"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "packageManager": "bun@1.1.7",
+  "workspaces": ["apps/*", "packages/*"]
+}
